@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;1,500&display=swap');
+
+*{
+  padding : 0px;
+  margin : 0px;
+}
+
+.descup{
+  padding: 0em 3em 0.2em 3em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px dotted rgb(230, 209, 191);
+}
+
+.descdown{
+  padding: 2em 3em;
+}
+
+.descbody{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.main-container{
+  width : 95vw;
+  height : 100vh;
+  box-shadow : inset 1em 1em 1em 1em rgb(226, 224, 224);
+  margin : auto;
+  margin-top : 2em;
+  position : relative;
+}
+
+.heading{
+  width : 60%;
+  background-image:linear-gradient(rgb(229, 248, 229) 5%, white); 
+  padding-right : 1px;
+}
+
+.greeting{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color : rgb(99, 9, 99);
+  margin-bottom: 1em;
+}
+
+#uname, #pword{
+  border: inset 1px solid white;
+  outline : none;
+  appearance : none;
+  padding : 0.3em 0.7em;
+  background-color: rgb(230, 209, 191);
+  border-radius : 5px;
+}
+
+.logbutton{
+  display : block;
+  margin : 1em; 
+  appearance: none;
+  margin-left : 8.5em;
+  padding : 0.2em 0.3em;
+  background-color: rgb(229, 248, 229);
+  font-size: 1em;
+}
+
+.navmenu{
+  position : absolute;
+  padding : 3em 3em;
+  padding-right : 1.5em;
+  bottom : 0px;
+  left: 0px;
+  width: 27%;
+  box-shadow: 0.4em -0.4em 0.5em rgb(226, 224, 224);
+}
+
+.nav-head{
+  background-color: rgb(229, 248, 229);
+  display: block;
+  margin-bottom : 1em;
+  font-family: 'Brygada 1918', serif;
+  font-weight: 500;
+  font-size : 1.7em;
+  padding: 0.2em 0.4em;
+  border-top: 2px dotted rgb(230, 209, 191);
+  border-bottom: 2px dotted rgb(230, 209, 191);
+  color : rgb(86, 188, 86);
+}
+
+.cal-img{
+  width: 5em;
+  margin-right: 1em;
+}
+
+.navitems{
+  list-style-type:none;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  padding : 0.6em 1em;
+  background-image: linear-gradient(white, rgb(241, 222, 186));
+}
+
+.lemon{
+  width: 15em;
+  float: right;
+}
+
+.descdiv{
+  position : absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 60%;
+  padding: 2em 3em;
+  box-shadow: 0.4em -0.4em 0.5em rgb(226, 224, 224);
+}
+
+.navitems a{
+  color :rgb(86, 188, 86);
+  text-decoration: none;
+}
+
+.navitems:hover{
+  opacity: 0.7;
+}
+
+.login{
+  width : 35%;
+  background-image:linear-gradient(rgb(241, 222, 186) 5%, white); 
+  padding : 2.3em;
+  justify-items: center;
+}
+
+.flex-container{
+  display : flex;
+  position : absolute;
+  right : 0px;
+  width : 65%;
+  height : 15em;
+  box-shadow: 0.4em 0.4em 0.5em rgb(226, 224, 224);
+}
+
+.heading-content{
+  margin-top: 6em;
+}
+
+.main-head{
+  color: rgb(150, 98, 7);
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin-left: 3.4em;
+}
+
+.dark-green{
+  color : rgb(86, 188, 86);
+}
+
+.descheading{
+  color : rgb(86, 188, 86);
+  font-family: 'Brygada 1918', serif;
+  font-weight: 700;
+  margin-left: 1em;
+}
+
+.log-heads{
+  color: rgb(126, 236, 9);
+  font-family: 'Brygada 1918', serif;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.subscript{
+  color: rgb(203, 163, 93);
+  font-family: 'Brygada 1918', serif;
+  font-weight: 500;
+  font-size: 2em;
+  margin-left: 8em;
+}
+
+.spacing{
+  flex : 1;
+}
+
+.fruit{
+  width : 25em;
+  height : 25em;
+  position : absolute;
+  top : 0.4em;
+  left : 2.2em;
+  z-index: 1;
+}
